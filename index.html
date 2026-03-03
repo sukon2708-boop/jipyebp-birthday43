@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="shell center">
+
+      <!-- จะซ่อนหลังจากกด "เป่าเค้ก" -->
+      <h2 id="titleText">เค้กมาส่งแล้ว</h2>
+
+      <!-- Cake Stage -->
+      <div class="cake-stage" id="cakeStage">
+        <img class="cake-img" id="cakeImg" src="assets/cake.png" alt="cake" />
+
+        <!-- ควัน (แสดงตอนเป่าเทียน) -->
+        <div class="smoke" id="smoke" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <!-- STEP 1 -->
+      <div class="big-card" id="step1">
+        <p class="badge">คลิกปุ่มเพื่อ “เป่าเค้ก”</p>
+        <div style="margin-top:14px;">
+          <button class="btn" id="blowCakeBtn">เป่าเค้ก</button>
+        </div>
+      </div>
+
+      <!-- STEP 2 -->
+      <div class="big-card" id="step2" style="display:none;">
+        <h2>เป่าเทียนวันเกิด</h2>
+        <p class="subtle">หลับตาแล้วอธิษฐานในใจ</p>
+        <div style="margin-top:14px;">
+          <button class="btn" id="blowCandleBtn">เป่าเทียน</button>
+        </div>
+      </div>
+
+      <!-- STEP 3 -->
+      <div class="big-card" id="step3" style="display:none;">
+        <h2 id="hbText">Happybirthday </h2>
+        <p class="subtle">สุขสันต์วันเกิด</p>
+        <div style="margin-top:14px;">
+          <a class="btn secondary" href="pass.html">หน้าถัดไป</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="js/cake.js"></script>
+</body>
+</html>
