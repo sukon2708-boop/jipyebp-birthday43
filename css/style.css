@@ -445,9 +445,16 @@ a.btn.secondary{
   padding: 18px;
 }
 
-.modal{
-  max-height: 80vh;
-  overflow: hidden;   /* กันล้น */
+.modal {
+  background: #fff;
+  width: 90%;
+  max-width: 500px;
+ max-height: 80vh;
+  overflow: hidden;   /* กันล้       /* กำหนดความสูง */
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;    /* เรียงบนลงล่าง */
 }
 
 #letterText{
