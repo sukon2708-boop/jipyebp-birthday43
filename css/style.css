@@ -739,19 +739,12 @@ a.btn.secondary{
   opacity:.8;
 }
 
-/* Letter */
 .letter-img{
   width: min(320px, 78vw);
   display: block;          /* สำคัญ */
   margin: 20px auto 0;     /* auto ซ้ายขวาจะทำให้กลาง */
   cursor: pointer;
-  background: transparent;
-  box-shadow: none;
-  border-radius: 0;
-
-  display: block;
 }
-
 /* Vinyl */
 .vinyl-wrap{
   width:290px;
