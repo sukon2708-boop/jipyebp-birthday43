@@ -742,9 +742,9 @@ a.btn.secondary{
 /* Letter */
 .letter-img{
   width: min(320px, 78vw);
-  margin: 10px auto 0;
-  cursor:pointer;
-
+  display: block;          /* สำคัญ */
+  margin: 20px auto 0;     /* auto ซ้ายขวาจะทำให้กลาง */
+  cursor: pointer;
   background: transparent;
   box-shadow: none;
   border-radius: 0;
