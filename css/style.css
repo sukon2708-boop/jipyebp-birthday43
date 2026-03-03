@@ -445,23 +445,17 @@ a.btn.secondary{
   padding: 18px;
 }
 
-.modal {
-  background: #fff;
-  width: 90%;
-  max-width: 500px;
-  height: 80vh;              /* กำหนดความสูง */
-  padding: 20px;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;    /* เรียงบนลงล่าง */
+.modal{
+  max-height: 80vh;
+  overflow: hidden;   /* กันล้น */
 }
 
-#letterText {
-  flex: 1;                   /* ให้กินพื้นที่ที่เหลือ */
-  overflow-y: auto;          /* ✅ ทำให้เลื่อนได้ */
-  white-space: pre-line;     /* ให้ขึ้นบรรทัดใหม่ตาม \n */
-  margin: 15px 0;
+#letterText{
+  max-height: 55vh;   /* คุมความสูงเฉพาะข้อความ */
+  overflow-y: auto;   /* เลื่อนได้ */
+  white-space: pre-line;
 }
+
 #letterText::-webkit-scrollbar {
   width: 6px;
 }
