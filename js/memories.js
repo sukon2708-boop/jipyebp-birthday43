@@ -3,15 +3,15 @@ const modalBackdrop = document.getElementById("modalBackdrop");
 const bigImg = document.getElementById("bigImg");
 
 const photos = [
-  "assets/memoriesm1.jpeg",
-  "assets/memoriesm2.jpeg",
-  "assets/memoriesm3.jpeg",
-  "assets/memoriesm4.jpeg",
-  "assets/memoriesm5.jpeg",
-  "assets/memoriesm6.jpeg",
-  "assets/memoriesm7.jpeg",
-  "assets/memoriesm8.jpeg",
-  "assets/memoriesm9.jpeg",
+  "assets/memoriesm1.jpg",
+  "assets/memoriesm2.jpg",
+  "assets/memoriesm3.jpg",
+  "assets/memoriesm4.jpg",
+  "assets/memoriesm5.jpg",
+  "assets/memoriesm6.jpg",
+  "assets/memoriesm7.jpg",
+  "assets/memoriesm8.jpg",
+  "assets/memoriesm9.jpg",
 ];
 
 photos.forEach(src=>{
